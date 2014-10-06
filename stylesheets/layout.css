@@ -390,7 +390,7 @@ body {
 /* block header top end */
 /* block header */
 #header {
-  height: 882px; }
+}
 
 .logo {
   float: left;
@@ -446,7 +446,7 @@ body {
   font-family: "Open Sans", serif; }
 
 #block-form {
-  background: url(../images/bg-fon.png) repeat-x;
+  background: rgba(0,0,0,0.5);
   width: 753px;
   height: 115px;
   margin: 55px auto 0;
@@ -584,13 +584,18 @@ body {
 #slides {
   display: none;
   width: 100%;
-  height: 810px;
   text-align: center;
   position: relative; }
 
 #slides > img {
   width: 100%; }
+  
+.slidesjs-control > img{
+	height: 100% !important; }  
 
+.slidesjs-container{
+	height: 100% !important; }  	
+	
 #slides .slidesjs-navigation {
   margin-top: 3px; }
 
