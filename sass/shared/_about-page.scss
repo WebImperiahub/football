@@ -1,0 +1,95 @@
+/* about page */
+.about-block-develops{
+  background: $block-carousel-bg;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid $border-blocks;
+}
+.block-develops-text{
+  width: 388px;
+  float: left;
+  margin-top: 52px;
+}
+.block-develops-text > span{
+  font-size: 24px;
+  color: $color-text-grey;
+  margin-bottom: 28px;
+  display: block;
+}
+.block-develops-text > p{
+  color: $p;
+  font-size: 18px;
+}
+.block-develops-image{
+  background: url(../images/about-image-block1.png) no-repeat;
+  width: 735px;
+  height: 462px;
+  float: right;
+}
+.block-journal-entries{
+  display: inline-block;
+  width: 100%;
+}
+.block-journal-entries-text{
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+.block-journal-entries-text > span{
+  font-size: 55px;
+  color: $color-text-grey;
+  font-family: "Open Sans", serif;
+  margin-bottom: 44px;
+  display: block;
+  text-align: center;
+  margin-top: 55px;
+}
+.icon-str{
+  display: block;
+  position: absolute;
+  right: 308px;
+  top: 212px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.icon-str .icon-svg14{
+  font-size: 41px;
+}
+.block-journal-entries-text > p{
+  color: $p;
+  font-size: 18px;
+  width: 530px;
+  position: relative;
+  top: -105px;
+  left: 15px;
+}
+.block-settings-bd{
+  background: $block-carousel-bg;
+  display: inline-block;
+  width: 100%;
+  border-top: 1px solid $border-blocks;
+  border-bottom: 1px solid $border-blocks;
+}
+.block-settings-text{
+  width: 388px;
+  float: right;
+  margin-top: 52px;
+}
+.block-settings-text > span{
+  font-size: 24px;
+  color: $color-text-grey;
+  margin-bottom: 28px;
+  display: block;
+}
+.block-settings-text > p{
+  color: $p;
+  font-size: 18px;
+}
+.block-settings-image{
+  background: url(../images/image-block4.png) left top no-repeat;
+  width: 752px;
+  height: 791px;
+  float: left;
+}
+/* about page end */
