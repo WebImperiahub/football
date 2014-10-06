@@ -38,11 +38,12 @@
 .block-journal-entries-text > span{
   font-size: 55px;
   color: $color-text-grey;
-  font-family: "Open Sans", serif;
+  font-family: $font-family;
   margin-bottom: 44px;
   display: block;
   text-align: center;
   margin-top: 55px;
+  font-weight: lighter;
 }
 .icon-str{
   display: block;

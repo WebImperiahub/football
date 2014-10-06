@@ -48,17 +48,17 @@ $icon-color: #b5b5b5;
   *zoom: 1;
   *display: inline;
 }
-.bx-wrapper .bx-controls-direction a.icon-svg6{
+.bx-wrapper .bx-controls-direction a.icon-arrow_left{
   top: 43%;
   position: absolute;
   float: left;
   color: $icon-color;
   font-size: 36px;
 }
-.bx-wrapper .bx-controls-direction a.icon-svg6:hover{
+.bx-wrapper .bx-controls-direction a.icon-arrow_left:hover{
   text-decoration: none;
 }
-.bx-wrapper .bx-controls-direction a.icon-svg5{
+.bx-wrapper .bx-controls-direction a.icon-arrow_right{
   float: right;
   position: absolute;
   top: 43%;
@@ -66,7 +66,7 @@ $icon-color: #b5b5b5;
   color: $icon-color;
   font-size: 36px;
 }
-.bx-wrapper .bx-controls-direction a.icon-svg5:hover{
+.bx-wrapper .bx-controls-direction a.icon-arrow_right:hover{
   text-decoration: none;
 }
 .bx-wrapper .bx-controls-direction a.disabled {

@@ -636,8 +636,8 @@
 		 * Appends prev / next controls to the controls element
 		 */
 		var appendControls = function(){
-			slider.controls.next = $('<a class="icon-svg5" href=""></a>');
-			slider.controls.prev = $('<a class="icon-svg6" href=""></a>');
+			slider.controls.next = $('<a class="icon-arrow_right" href=""></a>');
+			slider.controls.prev = $('<a class="icon-arrow_left" href=""></a>');
 			// bind click actions to the controls
 			slider.controls.next.bind('click', clickNextBind);
 			slider.controls.prev.bind('click', clickPrevBind);

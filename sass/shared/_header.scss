@@ -62,7 +62,6 @@
 
 /* block header */
 #header {
-  height: 882px;
 }
 .logo{
   float: left;
@@ -115,11 +114,11 @@
 .block-clients .h1{
   color: $color-white;
   font-size: 55px;
-  font-family: "Open Sans", serif;
+  font-weight: lighter;
 }
 
 #block-form{
-  background: url(../images/bg-fon.png) repeat-x;
+  background: rgba(0,0,0,0.5);
   width: 753px;
   height: 115px;
   margin: 55px auto 0;

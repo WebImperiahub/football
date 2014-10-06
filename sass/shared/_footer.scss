@@ -55,16 +55,18 @@ $color-copy: #757575;
   margin-top: 18px;
   float: right;
 }
-.column .support a{
+.text-support{
   color: $column-title-white;
   display: block;
   font-size: 12px;
   padding: 5px;
   border: 2px solid $color-border-support;
+  background: $color-border-support;
 }
-.column .support a:hover{
+.text-support:hover{
   color: $column-footer-links;
   border: 2px solid $column-title-white;
+  background: #fff;
 }
 .footer-logo{
   display: block;
@@ -76,22 +78,22 @@ $color-copy: #757575;
 .social-icon li{
   display: inline-block;
 }
-.social-icon .icon-svg7{
+.social-icon .icon-vk{
   color: $color-soc;
   font-size: 26px;
   margin-right: 7px;
 }
-.social-icon .icon-svg7:hover{
+.social-icon .icon-vk:hover{
   color: $color-soc-hover;
 }
 .social-icon a:hover{
   text-decoration: none;
 }
-.social-icon .icon-svg8{
+.social-icon .icon-facebook{
   color: $color-soc;
   font-size: 26px;
 }
-.social-icon .icon-svg8:hover{
+.social-icon .icon-facebook:hover{
   color: $color-soc-hover;
 }
 .copy > span{
