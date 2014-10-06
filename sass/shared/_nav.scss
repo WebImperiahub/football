@@ -1,0 +1,110 @@
+.navbar-static-side {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: auto;
+  background: $nav-bg;
+  min-height: 600px;
+  .nav {
+    & > li {
+      &.active {
+        a {
+          color: $nav-text-hover-color;
+        }
+      }
+      & > a {
+        padding: 12px 0;
+        font-weight: normal;
+        text-align: center;
+        transition: all .25s;
+        color: $nav-text-color;
+        &.disabled{
+          color: $nav-text-color - 80;
+          &:hover, &:focus{
+            background: $nav-hover-bg;
+            color: $nav-text-color - 80;
+          }
+        }
+        &:hover, &:focus {
+          background-color: $nav-hover-bg;
+          color: $nav-text-hover-color;
+        }
+        .nav-label {
+          margin: 5px auto 0;
+          width: 90px;
+          line-height: 1.1em;
+        }
+        i {
+          margin: 0;
+          font-weight: bold;
+          font-size: 1.5em;
+        }
+        .icon-circle {
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          line-height: 43px;
+          border: 1px solid;
+          border-radius: 50%;
+        }
+      }
+      &.nav-header {
+        padding: 8px;
+//        border-bottom: 1px solid #042f39;
+        margin-bottom: 10px;
+        .company_logo {
+          padding: 0;
+        }
+      }
+    }
+  }
+  .nav-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+.nav-tabs > li {
+  margin-right: -3px;
+  font-size: $font-size-large;
+  &.disabled{
+    a{
+      color: #fff;
+      border-color: $gray-lighter;
+      opacity: .6;
+      background: rgba(#fff,.3);
+      &:hover {
+        color: #fff;
+        background: rgba(#fff,.3);
+      }
+    }
+  }
+  & > a {
+    transition: all .3s;
+    color: #fff;
+    border-color: #fff;
+    border-bottom: none;
+    background: rgba(#000,.1);
+    &:hover {
+      background: rgba(#000,.2);
+    }
+  }
+}
+
+.dropdown-menu > li > a{
+  padding: 8px 20px;
+}
+
+
+body.modal-open{
+  padding-right: 0 !important;
+  overflow: auto;
+}
+
+.modal-header, .modal-footer{
+  border: none;
+}

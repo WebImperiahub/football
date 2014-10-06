@@ -1,0 +1,24 @@
+@mixin webfont($font-family, $file_path, $font-weight: normal, $font-style: normal) {
+
+  @font-face {
+    font-family: $font-family;
+    src: url("#{$file-path}.eot");
+    src: url(font-path("#{$file-path}.eot") + "?#iefix") format('embedded-opentype'),
+    url('#{$file-path}.woff') format('woff'),
+    url('#{$file-path}.ttf') format('truetype'),
+    url(font-path("#{$file-path}.svg") + "#" + "#{$font-family}") format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+
+}
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}

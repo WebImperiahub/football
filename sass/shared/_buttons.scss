@@ -1,0 +1,67 @@
+.btn{
+  transition: all .3s;
+}
+
+button, .btn:focus, .btn.active:focus {
+  outline: none !important;
+}
+
+.btn.btn-outline, .btn.btn-outline:focus {
+  background-color: rgba(#fff, .5);
+}
+
+.btn-primary.btn-outline {
+  color: $brand-primary;
+  border-color: $brand-primary;
+  &:hover{
+    background: $brand-primary;
+  }
+}
+
+.btn-success.btn-outline {
+  color: $brand-success;
+  border-color: $brand-success;
+  &:hover{
+    background: $brand-success;
+  }
+}
+
+.btn-info.btn-outline {
+  color: $brand-info;
+  border-color: $brand-info;
+  &:hover{
+    background: $brand-info;
+  }
+}
+
+.btn-warning.btn-outline {
+  color: $brand-warning;
+  border-color: $brand-warning;
+  &:hover{
+    background: $brand-warning;
+  }
+}
+
+.btn-danger.btn-outline {
+  color: $brand-danger;
+  border-color: $brand-danger;
+  &:hover{
+    background: $brand-danger;
+  }
+}
+
+.btn.btn-outline:hover, .btn.btn-outline:active{
+  color: #fff;
+}
+
+.btn-w-m {
+  min-width: 120px;
+}
+
+.close{
+  font-size: 2em;
+}
+
+a[data-method="delete"]{
+  color: $brand-danger;
+}
